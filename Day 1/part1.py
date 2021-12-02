@@ -3,7 +3,7 @@ prevNumber = int(0)
 resultList = list()
 
 #Read the input file
-with open('./input.txt','r') as f:
+with open('input.txt','r') as f:
     for line in f:
         if int(line) > int(prevNumber):
             resultList.append(int(line))
